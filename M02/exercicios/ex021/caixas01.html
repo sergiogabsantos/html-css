@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas</title>
+    <style>
+        /*Nessa aula "brincamos" com as caixas a partir do Devtools que podem se mexidas sem auterar o conteudo original nos arquivos do servidor(inspecionar elemento)*/
+        h1{      
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+
+    border: 5px solid rgb(88, 88, 87);
+
+    padding: 10px 20px;
+
+    margin: 10px auto 40px auto;
+
+    outline: 10px dashed yellow;
+}
+
+a {
+    height: 300px;
+    width: 300px;
+    border: 3px solid red;
+
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1> 
+    <p>Parágrafos tambem são exemplos de box-level, <a href="#">mas os links são exemplo de caixa inline-level</a></p>
+</body>
+</html>

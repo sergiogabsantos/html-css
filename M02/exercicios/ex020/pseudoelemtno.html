@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-elements</title>
+    <style>
+        /* Seletores Personalizados
+        id= #
+        class = .
+        : = pseudo-class
+        :: = pseudo-element
+        > = clildren (filho)
+        */
+        a{
+            text-decoration: none;
+            font-weight: bolder;
+
+        }
+        a:visited{
+            color: red;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blueviolet;
+        }
+        a::before{
+            content: ' »';
+            font-weight: lighter;
+            color: darkblue;
+            text-decoration: none;
+        }
+        a::after{
+            content: ' «';
+            text-decoration: none;
+            font-weight: lighter;
+            color: darkblue;
+        }
+        .adotado:before{
+            content: ' ≈';
+        }
+        .adotado:after{
+            content: ' ≈';
+        }
+        .adotado{
+            color: yellow;
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://mangalivre.net" target="_blank">Manga Livre</a></li>
+        <li><a href="https://vizer.tv" target="_blank" class="adotado">Vizer</a></li>
+    </ul>
+</body>
+</html>

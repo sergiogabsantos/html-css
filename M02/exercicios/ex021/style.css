@@ -1,0 +1,58 @@
+body{
+    font-family: cursive, sans-serif;
+    margin: 10px;
+    background-color: rgb(129, 129, 129);
+    
+}
+header{
+    background-color: rgb(211, 185, 185);
+}
+h1{
+    text-align: center;
+}
+
+#esportes{
+    background-color: rgb(168, 166, 166);
+    padding: 6px;
+    border: 3px solid black;
+    margin-bottom: 5px;
+    border-radius: 20px 0px;
+}
+
+#Brasil{
+    background-color: lightgray;
+    border: 3px solid black;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+nav >a:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+}
+
+#escritor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    border: 3px solid white;
+    margin-bottom: 5px;
+    border-radius: 0px 20px;
+}
+
+footer{
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
